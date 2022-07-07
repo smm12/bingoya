@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 30px;
+    color: #121212;
+}
+
+.ffJosefin {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.innerWrap {
+    margin: 0 auto;
+    padding: 66px 0 0;
+}
+
+p {
+    text-align: center;
+    line-height: 1.75;
+    margin-bottom: 15px;
+    padding: 0px 40px; 
+}
+
+p.illust {
+    margin: 0px auto;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: .05em;
+    margin-bottom: 80px;
+}
+
+header {
+    background: url(../images/headerImage.png) no-repeat right;
+    background-size: contain;
+    height: 200px;
+    text-align: left;
+    padding-bottom : 40px;
+}
+
+footer {
+    height: 100px;
+    color: white;
+    background-color: #121212;
+}
+
+footer p{
+     padding-top: 25px;
+}
+
+header h1 {
+    padding-top: 40px;
+    font-size: 42px;
+    letter-spacing: .05em;
+    margin-bottom: 80px;
+    padding: 40px 20px 0px 20px;
+}
+
+.NewsSec {
+    background-color: #fbfaf7;
+}
+
+.NewsSec p {
+    text-align: center;
+    line-height: 1.75;
+    margin-bottom: 40px;
+}
+
+.NewsSec img {
+    border-radius: 60px;
+    height: 240px;
+    width: 240px;
+    margin-bottom: 40px;
+}
+
+.PrivacyPSec p {
+    text-align: left;
+    margin: 60px auto;
+}
+
+.PrivacyPSec p.illust {
+    text-align: center;
+    margin: 60px auto 0px;
+}
+
+
+.PrivacyPSec {
+    background-color: #fbfaf7;
+}
+
+.FormSec {
+    background-color: #efe8d9;
+    padding: 0 20px 0 20px;
+}
+
+.AboutSec {
+    background-color: #efe8d9;
+}
+
+.AboutSec p.illust {
+    margin-top: 60px;
+}
+
+.FormSec ul {
+    display: flex;
+    justify-content: center;
+    padding: 12px 0px 80px;
+}
+
+.FormSec ul li{
+    margin: 0 20px;
+}
+
+.FormSec ul li a:hover{
+    color: #eb6100;
+}
+
+a:hover {
+    color: #eb6100;
+}
+
+a {
+    text-decoration-line: underline;
+}
+
+@media screen and (max-width:640px){
+    /*
+    p.illust img{
+        width: 100%;
+        height: 100%;
+    }
+        */
+}
+
