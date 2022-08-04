@@ -15,6 +15,44 @@ body {
     padding: 66px 0 0;
 }
 
+.fadeIn {
+    animation-name: fadeInAnime;
+    animation-duration: 1S;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.fadeUpTrigger {
+    opacity: 0;
+}
+
+.fadeOut {
+    animation-name: fadeUpAnime;
+    animation-duration: 1S;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fadeInAnime{
+    from{
+        opacity:0;
+    }to{
+         opacity:1;
+     }
+}
+
+@keyframes fadeUpAnime {
+    from {
+        opacity: 0;
+        transform:translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 p {
     text-align: center;
     line-height: 1.75;
