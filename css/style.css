@@ -57,7 +57,7 @@ p {
     text-align: center;
     line-height: 1.75;
     margin-bottom: 15px;
-    padding: 0px 40px; 
+    padding: 0px 40px;
 }
 
 p.illust {
@@ -164,12 +164,49 @@ a {
     text-decoration-line: underline;
 }
 
-@media screen and (max-width:640px){
-    /*
-    p.illust img{
-        width: 100%;
-        height: 100%;
-    }
-        */
+.slide-in{
+  overflow: hidden;
+  display: inline-block;
 }
 
+.slide-in_inner{
+  display: inline-block;
+}
+
+.leftAnime{
+  opacity: 0;
+}
+
+.slideAnimeLeftRight{
+  animation-name: slideTextX100;
+  animation-duration: 0.8s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes slideTextX100 {
+  from{
+    transform: translateX(-100%);
+    opacity: 0;
+  } to{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slideAnimeRightLeft{
+  animation-name: slideTextX-100;
+  animation-duration: 0.8s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes slideTextX-100 {
+  from{
+    transform: translateX(100%);
+    opacity: 0;
+  } to{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

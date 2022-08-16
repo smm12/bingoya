@@ -14,6 +14,7 @@
         }else {
             $(this).removeClass('fadeOut');
         }
+
     });
 
 }
