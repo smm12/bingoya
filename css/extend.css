@@ -32,7 +32,7 @@
 }
 
 .bgLRextend::before{
-  animation-name: :bgLRextendAnime;
+  animation-name: bgLRextendAnime;
   animation-duration: 1s;
   animation-fill-mode: forwards;
   content: "";
