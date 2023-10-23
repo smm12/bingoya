@@ -75,7 +75,7 @@ main h2 {
 header {
     background: url(../images/headerImage.png) no-repeat right;
     background-size: contain;
-    height: 200px;
+    height: 300px;
     text-align: left;
     padding-bottom : 40px;
 }
@@ -219,4 +219,76 @@ a {
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+/* ナビゲーションバーのスタイリング */
+.navbar {
+    background-color: transparent;
+    overflow: hidden;
+}
+
+/* ナビゲーションバー内のリンクのスタイリング */
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* マウスオーバー時のスタイリング */
+.navbar a:hover {
+    background-color: transparent;  /* 背景色を透明に変更 */
+    color: black;
+}
+.header-flex {
+    display: flex;
+    flex-direction: column;  /* 垂直方向に配置 */
+    align-items: left;     /* 中央に配置（垂直方向） */
+    justify-content: left; /* 中央に配置（水平方向） */
+}
+.navbar ul {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    margin: 0;  /* 上下の余白を半分に調節 */
+    padding: 0;
+}
+
+/* 過去のアプリ情報 */
+.pastAppsWrap {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.pastAppsWrap h3 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.pastAppsList {
+    text-align: center;
+}
+
+.pastAppsList li {
+    text-align: left;
+    margin-bottom: 10px; 
+}
+
+.pastAppsList a {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+}
+
+.appIcon,
+.pastAppsList img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 20px;  /* 20ピクセルの角丸 */
+}
+
+.appInfo {
+    font-size: 18px;
 }
