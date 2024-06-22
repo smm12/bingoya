@@ -294,3 +294,45 @@ a {
 .appInfo {
     font-size: 18px;
 }
+
+.GoodsSec {
+    background-color: #b0d4f1; /* Calm light blue */
+    color: #123456; /* Dark blue text */
+    padding: 20px 0;
+}
+
+.GoodsSec .innerWrap {
+    text-align: center;
+}
+
+.GoodsSec h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.GoodsSec p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.GoodsSec .goodsImages {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.GoodsSec .goodsImages a {
+    display: block;
+}
+
+.GoodsSec .goodsImages img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.GoodsSec .goodsImages img:hover {
+    transform: scale(1.05);
+}
+
